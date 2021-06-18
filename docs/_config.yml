@@ -48,7 +48,9 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 # Collections
 collections_dir:
   my_collections:
-    mountain_duck: true
+  collections:
+    mountain_duck: 
+      output: true
 
 # Defaults
 defaults:
