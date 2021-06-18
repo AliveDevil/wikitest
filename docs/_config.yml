@@ -49,8 +49,9 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 collections_dir:
   my_collections:
   collections:
-    mountain_duck: 
+    _mountain_duck: 
       output: true
+      permalink: /:collection/:name
 
 # Defaults
 defaults:
