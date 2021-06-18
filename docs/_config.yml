@@ -51,23 +51,3 @@ collections_dir:
   collections:
     mountain_duck: 
       output: true
-
-# Defaults
-defaults:
-  - scope:
-      path: "my_collections"
-      type: "docs"
-    values:
-      layout: page
-  -
-    scope:
-      path: "mountain_duck"
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "posts"
-      type: "posts"
-    values:
-      layout: "post"
