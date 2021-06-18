@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Known Issues
 tags: 
  - Mountain Duck
