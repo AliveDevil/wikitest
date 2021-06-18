@@ -56,7 +56,7 @@ collections_dir:
 # Defaults
 defaults:
   - scope:
-      path: "_docs"
+      path: "_mountain_duck"
       type: "docs"
     values:
       layout: page
