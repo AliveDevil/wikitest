@@ -49,7 +49,7 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 collections_dir:
   my_collections:
   collections:
-    _mountain_duck: 
+    my_collections/_mountain_duck: 
       output: true
 
 # Defaults
