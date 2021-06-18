@@ -56,13 +56,13 @@ collections_dir:
 # Defaults
 defaults:
   - scope:
-      path: "_docs"
+      path: "my_collections"
       type: "docs"
     values:
       layout: page
   -
     scope:
-      path: ""
+      path: "_mountain_duck"
       type: "pages"
     values:
       layout: "page"
