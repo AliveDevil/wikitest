@@ -61,7 +61,7 @@ defaults:
       layout: page
   -
     scope:
-      path: "_mountain_duck"
+      path: "mountain_duck"
       type: "pages"
     values:
       layout: "page"
