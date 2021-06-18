@@ -46,17 +46,15 @@ markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
-collections_dir:
-  my_collections:
-  collections:
-    mountain_duck: 
-      output: true
-      permalink: /:collection/:path
-      
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path
+
 # Defaults
 defaults:
   - scope:
-      path: "_mountain_duck"
+      path: "_docs"
       type: "docs"
     values:
       layout: page
