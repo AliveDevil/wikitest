@@ -51,7 +51,6 @@ collections_dir:
   collections:
     _mountain_duck: 
       output: true
-      permalink: /:collection/:name
 
 # Defaults
 defaults:
