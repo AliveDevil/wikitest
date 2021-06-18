@@ -1,0 +1,25 @@
+# Known Issues
+## Performance Considerations
+To reduce the number of requests to the remote server for mounted volumes, we recommend the following settings when running in _Online_ connect mode.
+
+{% tabs performance-considerations %}
+
+{% tab performance-considerations macOS %}
+```yaml
+### Finder.app
+  - Choose _View → Hide Preview_
+  - Disable _View → Show View Options → Show icon preview_
+```
+{% endtab %}
+
+{% tab data-struct json %}
+```yaml
+### Windows Explorer
+Choose _File Explorer → Folder Options_.
+  - Check _Always show icons, never thumbnails_
+  - Check _Display File Icon on thumbnails_
+  - Uncheck _Show preview handlers in preview pane_
+```
+{% endtab %}
+
+{% endtabs %}
