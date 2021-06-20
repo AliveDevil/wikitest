@@ -46,7 +46,7 @@ permalink: /:year/:title/
 markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
-collections_dir: 
+collections_dir: collections
 
 # Collections
 collections:
