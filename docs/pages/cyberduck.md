@@ -1,5 +1,5 @@
 ---
-permalink: /cybeduck/
+permalink: /cyberduck/
 ---
 # Cyberduck
 
