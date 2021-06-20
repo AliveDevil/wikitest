@@ -46,8 +46,6 @@ permalink: /:year/:title/
 markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
-collections_dir: collections
-
 # Collections
 collections:
   docs:
@@ -60,7 +58,17 @@ collections:
 # Defaults
 defaults:
   - scope:
-      path: "collections"
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: page
+    - scope:
+      path: "_cyberduck"
+      type: "docs"
+    values:
+      layout: page
+  - scope:
+      path: "_mountainduck"
       type: "docs"
     values:
       layout: page
