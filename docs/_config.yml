@@ -62,7 +62,7 @@ defaults:
       type: "docs"
     values:
       layout: page
-    - scope:
+  - scope:
       path: "_cyberduck"
       type: "docs"
     values:
