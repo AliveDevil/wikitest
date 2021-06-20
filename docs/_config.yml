@@ -2,7 +2,6 @@ remote_theme: vsoch/docsy-jekyll
 plugins:
   - jekyll-tabs
 
-
 title: wikitest
 author: Dinosaur Avocado
 description: > # this means to ignore newlines until "baseurl:"
@@ -47,11 +46,16 @@ permalink: /:year/:title/
 markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
+collections_dir: 
+
 # Collections
 collections:
   docs:
     output: true
-    permalink: /:collection/:path
+  mountainduck:
+    output: true
+  cyberduck:
+    output: true
 
 # Defaults
 defaults:
